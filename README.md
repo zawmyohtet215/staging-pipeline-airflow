@@ -1,5 +1,3 @@
-# staging-pipeline-airflow
-
 # SAP HANA to PostgreSQL ETL with Airflow
 
 ## Overview
@@ -18,8 +16,8 @@ This project automates data extraction from SAP HANA, transformation, and loadin
 - **notify_task:** Sends notifications on DAG completion or failure.
 
 ## Configuration
-- Update SAP HANA and PostgreSQL connection settings in `config.py`.
-- Adjust scheduling parameters in `dag.py` if needed.
+- Update SAP HANA and PostgreSQL connection settings in airflow variables.
+- Adjust scheduling parameters if needed.
 
 ## Dependencies
 - Apache Airflow (Taskflow API)
